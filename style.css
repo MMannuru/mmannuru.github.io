@@ -1,0 +1,56 @@
+body {
+  background: #0b0b0b;
+  color: #e5e5e5;
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.subtitle {
+  color: #aaaaaa;
+}
+
+nav {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin-right: 15px;
+  color: #6ae3ff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  width: 180px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
