@@ -95,22 +95,30 @@ background: #111;
 }
 
 /* Projects */
-.projects {
-  margin-top: 20px;
-}
 .project {
 margin-bottom: 20px;
-padding: 12px;
+padding: 14px 16px;
 border-radius: 8px;
 background: #0f0f0f;
 border: 1px solid #1f1f1f;
+transition: all 0.2s ease;
+}
+
+.project:hover {
+background: #141414;
 }
 
 .project-title {
-  font-weight: 700;
-  font-size: 15px;
-  color: #e5e5e5;
-  margin-bottom: 2px;
+font-weight: 700;
+font-size: 16px;
+color: #e5e5e5;
+margin-bottom: 4px;
+}
+
+.project-desc {
+color: #9ca3af;
+font-size: 14px;
+margin: 0;
 }
 
 ul {
