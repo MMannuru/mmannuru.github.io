@@ -82,54 +82,34 @@ font-size: 20px;
 
 
 .experience {
-
-margin-top: 25px;
-
+  margin-top: 25px;
 }
-
 
 .job {
-
-display: flex;
-align-items: flex-start;
-
-gap: 18px;
-
-margin-bottom: 26px;
-
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 28px;
 }
-
 
 .logo {
-
-width: 48px;
-height: 48px;
-
-object-fit: contain;
-
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
 }
 
-
-.job-text {
-
-max-width: 600px;
-
+.job-content {
+  max-width: 600px;
 }
 
-
-.title {
-
-font-weight: 600;
-margin-bottom: 4px;
-
+.job-title {
+  font-weight: 600;
+  margin-bottom: 4px;
 }
 
-
-.desc {
-
-color: #9ca3af;
-font-size: 14px;
-
+.job-desc {
+  color: #9ca3af;
+  font-size: 14px;
 }
 
 
