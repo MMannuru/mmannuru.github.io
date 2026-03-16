@@ -82,34 +82,31 @@ font-size: 20px;
 
 
 .experience {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .job {
-  display: flex;
-  align-items: flex-start;
-  gap: 18px;
-  margin-bottom: 28px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  column-gap: 18px;
+  margin-bottom: 32px;
+  align-items: start;
 }
 
 .logo {
-  width: 42px;
-  height: 42px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
-}
-
-.job-content {
-  max-width: 600px;
 }
 
 .job-title {
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .job-desc {
   color: #9ca3af;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 
