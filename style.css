@@ -6,103 +6,87 @@ padding: 0;
 
 body {
 font-family: 'Inter', sans-serif;
-background: linear-gradient(180deg,#0a0a0a 0%,#050505 100%);
+background: linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
 color: #e5e5e5;
 }
+
+/* LAYOUT */
 
 .container {
 max-width: 720px;
 margin: auto;
-padding: 70px 20px;
+padding: 80px 20px;
 }
+
+/* HEADER */
 
 h1 {
 font-size: 40px;
 font-weight: 700;
-margin-bottom: 8px;
+margin-bottom: 6px;
 }
 
 .subtitle {
 color: #9ca3af;
-margin-bottom: 30px;
+margin-bottom: 28px;
 }
 
+/* NAV */
+
 nav {
-margin-bottom: 30px;
+margin-bottom: 28px;
 }
 
 nav a {
 margin-right: 18px;
 color: #7dd3fc;
 font-size: 20px;
+transition: color 0.2s ease;
 }
 
 nav a:hover {
 color: white;
 }
 
+/* PROFILE */
+
 .profile {
 width: 170px;
 height: 170px;
 border-radius: 50%;
 object-fit: cover;
-margin: 25px 0 35px 0;
+margin: 30px 0 40px 0;
 }
 
+/* SECTIONS */
+
 h2 {
-margin-top: 50px;
+margin-top: 60px;
 margin-bottom: 14px;
 border-bottom: 1px solid #333;
 padding-bottom: 6px;
 font-size: 20px;
+font-weight: 600;
 }
 
+/* TEXT */
+
 p {
-line-height: 1.6;
+line-height: 1.65;
 margin-bottom: 14px;
 color: #cbd5e1;
 }
 
-/* LIST SECTIONS */
+/* CLEAN LISTS */
 
-.thoughts, .beliefs, .fun {
+.clean-list {
 padding-left: 20px;
 color: #cbd5e1;
 }
 
-.thoughts li, .beliefs li, .fun li {
+.clean-list li {
 margin-bottom: 10px;
-}
-
-/* IDEAS GRID */
-
-.ideas {
-display: grid;
-grid-template-columns: 1fr;
-gap: 12px;
-margin-top: 15px;
-}
-
-.idea {
-padding: 14px;
-border-radius: 10px;
-background: #0f0f0f;
-border: 1px solid #1f1f1f;
-transition: all 0.2s ease;
-}
-
-.idea:hover {
-background: #141414;
-}
-
-.idea-title {
-font-weight: 600;
-margin-bottom: 4px;
-}
-
-.idea-desc {
-font-size: 14px;
-color: #9ca3af;
+line-height: 1.6;
 }
 
 /* EXPERIENCE */
@@ -133,6 +117,7 @@ object-fit: contain;
 
 .job-company {
 font-weight: 600;
+font-size: 15px;
 }
 
 .job-title {
@@ -147,22 +132,30 @@ font-size: 14px;
 color: #9ca3af;
 }
 
-/* PROJECTS */
+.job-bullets li {
+margin-bottom: 4px;
+}
+
+/* PROJECTS (ONLY CARD SECTION) */
 
 .project {
 margin-bottom: 18px;
-padding: 14px;
+padding: 14px 16px;
 border-radius: 10px;
 background: #0f0f0f;
 border: 1px solid #1f1f1f;
+transition: all 0.2s ease;
 }
 
 .project:hover {
 background: #141414;
+transform: translateY(-2px);
 }
 
 .project-title {
 font-weight: 600;
+font-size: 16px;
+margin-bottom: 4px;
 }
 
 .project-desc {
