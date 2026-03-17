@@ -208,13 +208,13 @@ h2.classic {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #3b82f6;
+  background: #ffffff; 
   flex-shrink: 0;
   margin-top: 7px;
 }
 
 .think-dot.sport {
-  background: #f59e0b;
+  background: #ffffff; 
 }
 
 .think-text {
@@ -296,7 +296,6 @@ h2.classic {
   color: #e5e5e5;
 }
 
-/* 🔥 BLUE TAG */
 .idea-tag {
   font-family: 'Courier New', monospace;
   font-size: 10px;
@@ -307,7 +306,6 @@ h2.classic {
   padding: 2px 7px;
 }
 
-/* 🔥 REMOVE TAGLINE */
 .idea-tagline {
   display: none;
 }
