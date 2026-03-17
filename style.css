@@ -80,6 +80,7 @@ h2 {
   color: #e5e5e5;
   border-bottom: 1px solid #1e1e1e;
   padding-bottom: 10px;
+  margin-top: 45px;   /* 🔥 ADD THIS */
   margin-bottom: 22px;
 }
 
@@ -133,15 +134,19 @@ h2.classic {
   margin-bottom: 6px;
 }
 
-/* 🔥 FIXED BULLETS */
 .job-bullets {
   padding-left: 18px;
   font-size: 13.5px;
   color: #ffffff;
+  list-style-type: disc;
 }
 
 .job-bullets li {
   margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.job-bullets li::marker {
   color: #ffffff;
 }
 
