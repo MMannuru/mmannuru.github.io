@@ -1,1 +1,1 @@
-new personal website -- in progress and unfinished. 
+Personal website
